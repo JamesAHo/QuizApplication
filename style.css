@@ -1,0 +1,126 @@
+:root{
+    background-color: rgb(216, 237, 245);
+}
+li {
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 1.5px 1px 3px black;
+    list-style-type: none;
+}
+p {
+    color: rgb(9, 9, 9);
+    
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+}
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-top: -.5rem;
+}
+input {
+    text-align: center;
+    border-radius:25px ;
+}
+.Page-Container {
+    width: 100vw;
+    height:100vh;;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+button {
+    display: inline-block;
+    font-family: sans-serif;
+    background-color: orange;
+    border-radius: 25px;
+    border: 3px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    margin-top: 3px;
+}
+button:hover{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+  animation:slidebg 2s linear infinite;
+
+}
+#beginQuiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#timer {
+    font-family: sans-serif;
+    background-color: rgb(185, 243, 187);
+    color: black;
+    font-size: large;
+    border-radius: 30px;
+    text-align: center;
+}
+#quiz-content{
+    display: none;
+}
+#result {
+    display: none;
+}
+#endgame {
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+#scoreListPage {
+    display: none;
+    width: 50%;
+    border-top: 40px;
+    border-radius: 40px;
+    border-color: white;
+    border-bottom-style: groove;
+    padding-bottom: .3rem;
+    background: lightsteelblue;
+}
+#scoreList-header {
+    display:flex;
+    justify-content: space-around;
+    border-bottom-style: outset;
+    margin-bottom: .5rem;
+    background-color: #a5adf0;
+    color: rgb(236, 80, 221);
+    font-family: sans-serif;
+}
+#recordedscore-Container {
+    height: 100%;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#user-initial {
+    display: inline-block;
+    padding-left: 9.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#user-score {
+    float: right;
+    padding-right: 8.75rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#resultscore {
+    padding-bottom: 0.5rem;
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#endgameButton {
+    display: none;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="Page-Container">
+
+        <div id="beginQuiz">
+            <h2>This is a quiz app</h2>
+            <h2>Click Begin Quiz to start</h2>
+        <button id="startbutton">Begin Quiz</button>
+        <button id="CheckHighScore" onclick="checkBestscore()">High Scores</button>
+        </div>
+        <!--Quiz containeer-->
+        <div id="quiz-content">
+            <div id="timer">Time Left: </div>
+                <div id="quizQuestion"><p>Quiz placeholder</p></div>
+                    <button id="a" onclick="verifyAnswer('a')"></button>
+                    <button id="b" onclick="verifyAnswer('b')"></button>
+                    <button id="c" onclick="verifyAnswer('c')"></button>
+                    <button id="d" onclick="verifyAnswer('d')"></button>
+                <div id="result"></div>
+        </div>
+
+        <div id="endgame">
+            <div id="resultscore"></div>
+            <input type="text" size="40" placeholder="Put initial for record" name="initials" id="INT">
+            <button id="scoreSubmit">Record your score</button>
+        </div>
+            <div id="recordedscore-Container">
+                <div id="scoreListPage">
+                    <div id="scoreList-header">
+                        <h3>Name Initials</h3>
+                        <h3>Score</h3>
+                    </div>
+                    <div id="user-initial"></div>
+                    <div id="user-score"></div>
+                </div>
+                <div id="endgameButton">
+                    <button id="Retry" onclick="RetryQuiz()">Retry Quiz</button>
+                    <button id="Refresh" onclick="ClearScore()">Clear Highscore</button>
+                </div>
+            </div>
+
+    </div>
+
+<script src="/javascript.js"></script>
+
+</body>
+</html>
