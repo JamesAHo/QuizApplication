@@ -47,7 +47,7 @@ var quizQuestionsList = [{
     choiceD: "React.js",
     correctAnswer: "b"},
     {
-    question: "Is it necessary for the external script file to contain a <script> tag?",
+    question: "Is it necessary for the external script file to contain a script tag?",
     choiceA: "Yes",
     choiceB: "No",
     choiceC: "Depends on the type of include",
