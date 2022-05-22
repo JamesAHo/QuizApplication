@@ -15,7 +15,9 @@
 # App Description
 This a a quiz app that created for user to take the quiz. Technologies used in this app are: Javascript, HTML, Css.
 # Repository & Deploy URL
--Repository link: https://github.com/JamesAHo/Quiz-App <br>
--Deployed Link: https://jamesaho.github.io/Quiz-App/
+-Repository link: https://github.com/JamesAHo/QuizApplication <br>
+-Deployed Link: https://jamesaho.github.io/QuizApplication/
 # Mock up
 
+
+![QuizappMockup](https://user-images.githubusercontent.com/90822220/169682351-c9c83c3c-5027-43b2-8749-f77f87b46662.jpg)
